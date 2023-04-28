@@ -1,9 +1,16 @@
+import Home from "./routes/Home";
+import About from "./routes/Home/About";
+
 
 export default function App() {
  
 
   return (
-    <h1>Hello</h1>
+    <>
+     <Home />
+     <About />
+    </>
+   
   );
 }
 

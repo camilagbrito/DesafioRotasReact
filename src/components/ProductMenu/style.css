@@ -1,0 +1,12 @@
+
+.product-menu-container{
+    height: 60px;
+    margin-top: 40px;
+    background-color: var(--bg-color-tertiary);
+    color: var(--font-color-primary);
+    display: flex;
+}
+
+.product-menu-item{
+    padding: 20px;
+}

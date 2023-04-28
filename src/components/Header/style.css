@@ -1,0 +1,27 @@
+header{
+    
+    background-color: var(--bg-color-secondary);
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item{
+    padding-right: 26px;
+    font-size: 16px;
+    color: var(--font-color-secondary);
+}
+
+.home img{
+    width: 30px;
+}
