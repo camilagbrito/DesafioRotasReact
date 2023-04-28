@@ -1,14 +1,17 @@
+import { Outlet } from "react-router-dom";
 import ProductMenu from "../../../components/ProductMenu";
-import Computers from "./Computers";
+
 
 export default function Products(){
 
     return(
-        <>
-        <ProductMenu />
-        <Computers />
-        </>
-        
+        <main>
+            <section>
+                <div className="mt-20 mb-20">
+                    <ProductMenu />
+                </div>
+                <Outlet/>
+            </section>
+        </main>          
     );
-
 }

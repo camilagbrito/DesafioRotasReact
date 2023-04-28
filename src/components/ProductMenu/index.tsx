@@ -1,17 +1,24 @@
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
 export default function ProductMenu(){
     return(
-        <div className='product-menu-container container'>
+        <nav className='product-menu-container container'>
             <div className='product-menu-item'>
-                Computadores
+                <NavLink className={({isActive}) => isActive ? "active" : ""} to={'/products/computers'}>
+                    Computadores
+                </NavLink>
             </div>
             <div className='product-menu-item'>
-                Eletrônicos
+                <NavLink className={({isActive}) => isActive ? "active" : ""} to={'/products/eletronics'}>
+                    Eletrônicos
+                </NavLink>
             </div>
             <div className='product-menu-item'>
-                Livros
+                <NavLink className={({isActive}) => isActive ? "active" : ""} to={'/products/books'}>
+                    Livros
+                </NavLink>
             </div>
-        </div>
+        </nav>
     );
 }

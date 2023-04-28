@@ -42,3 +42,11 @@ body {
 .mt-20{
   margin-top: 20px;
 }
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.active{
+  font-weight: 700;
+}

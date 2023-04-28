@@ -1,10 +1,12 @@
 
 export default function HomeBody(){
     return(
-        <section className="container">
-            <div className="section-title">
-                Bem Vindos!
-            </div>
-        </section>
+        <main>
+            <section className="container">
+                <div className="section-title mt-20">
+                    Bem Vindos!
+                </div>
+            </section>
+        </main>
     );
 }
